@@ -1,0 +1,6 @@
+NO
+
+The two functions will not output the same results. The first function, foo1(), 
+uses a lowercase "r" in the word "return", which is the correct syntax for the 
+JavaScript return statement. The second function, foo2(), uses an uppercase "R" in 
+the word "Return", which is not a valid JavaScript syntax and will cause a syntax error.
