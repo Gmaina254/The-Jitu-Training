@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>TO DO APP</title>
+</head>
+<body>
+    <main class="app">
+        <section class="greeting">
+            <h2 class="title">
+                Hey <input type="text" id = "name" placeholder="Name here">
+            </h2>
+        </section>
+
+        <section class="create_todo">
+            <h3>CREATE A TO DO LIST</h3>
+            <form id="new_to_do_form">
+                <h4>Whats on todays todo list</h4>
+                <input type="text" name="content" id="content" placeholder="e.g Visit a friend"/>
+                <h4>Pick your todo category.</h4>
+                <div class="options">
+                    <label>
+                        <input 
+                            type="radio"
+                            name="category"
+                            id="category1"
+                            value="business"/>
+                        <span class="bubble business"></span>
+                        <div>
+                            Business
+                        </div>
+                    </label>
+
+                     <label>
+                        <input 
+                            type="radio"
+                            name="category"
+                            id="category2"
+                            value="personal"/>
+                        <span class="bubble personal"></span>
+                        <div>Personal</div>
+                    </label>
+                </div>
+                <input type="submit" value="Add todo"/>
+            </form>
+        </section>
+
+        <section class="todo_list">
+            <h3>TODO LIST</h3>
+            <div class="list" id="todo_list">
+                <!-- <div class="todo_item done">
+                    <label>
+                        <input type="checkbox" />
+                        <span class="bubble business"></span>
+                    </label>
+
+                    <div class="todo_content">
+                        <input type="text" value="Make a Report." readonly />
+                    </div>
+
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>                    
+                </div>
+                <div class="todo_item">
+                    <label>
+                        <input type="checkbox" />
+                        <span class="bubble personal"></span>
+                    </label>
+
+                    <div class="todo_content">
+                        <input type="text" value="Go to the market." readonly />
+                    </div>
+
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+  <script src="index.js"></script>  
+</body>
+</html>
