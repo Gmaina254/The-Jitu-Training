@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./App.css";
 
 const items = [
   { id: 1, name: "Inception", type: "movie" },

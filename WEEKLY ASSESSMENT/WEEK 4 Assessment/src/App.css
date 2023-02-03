@@ -2,7 +2,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 
