@@ -1,3 +1,4 @@
+// check palindrome
 function palindrome(string) {
 
     // remove spaces from the string or phrase and join to form one string

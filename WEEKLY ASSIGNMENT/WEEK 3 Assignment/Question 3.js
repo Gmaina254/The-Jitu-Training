@@ -1,3 +1,4 @@
+// remove duplicates
 let arr = [
   "scale",
   "SCALE",

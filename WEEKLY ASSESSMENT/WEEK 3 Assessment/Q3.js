@@ -1,3 +1,4 @@
+// return sum of user inputs
 let numbers = prompt("Enter numbers separated by comma: ");
 
 // The split() method splits the user input into an array of strings
